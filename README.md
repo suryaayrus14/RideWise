@@ -81,6 +81,13 @@ To run the lightweight test runner, run `RideWiseTest.main()` from the IDE. It i
 - **Composition over inheritance:** `RideService` is configured with strategy implementations instead of inheriting from them.
 - **In-memory state:** services hold data in collections for this assignment's scope.
 
+## Limitations
+- No persistent storage; data resets on application restart.
+- No real map or routing integration; distance is straight-line Haversine distance.
+- No concurrency control or real-time driver location updates.
+- Vehicle type is captured and displayed, but does not currently alter fare calculation or constrain matching.
+- This is an educational LLD exercise rather than a production service.
+
 
 
 ## Documentation
